@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pwd">密码:</string>
+    <string name="app_name">little-girl</string>
+    <string name="name">标题:</string>
+    <string name="content">内容:</string>
+    <string name="jiami">加密</string>
+    <string name="jiamifile">加密文件</string>
+    <string name="jiemifile">解密文件</string>
+    <string name="index">返回首页</string>
+    <string name="jiemi">解密</string>
+    <string name="showcontentname">解密文本</string>
+    <string name="jiamicontent">加密文本</string>
+    <string name="modify">修改</string>
+    <string name="tishimima">请输入密码!</string>
+    <string name="tishiname">请输入标题!</string>
+    <string name="tishicontent">请输入内容!</string>
+    <string name="username">用户名:</string>
+    <string name="tishiusername">请输入用户名!</string>
+    <string name="login">登录</string>
+    <string name="regist">注册</string>
+    <string name="liulan">浏览文件</string>
+    <string name="shangyiji">上一级</string>  
+    <string name="deletecontent">删除文本</string>
+    <string name="modifycontent">修改文本</string>
+    <string name="email">邮箱:</string>
+    <string name="oldpwd">原密码:</string> 
+    <string name="newpwd">新密码:</string>
+    <string name="submit">提交</string> 
+    <string name="rnewpwd">确认密码:</string> 
+    <string name="tishiemail">请输入邮箱邮箱地址!</string>
+    <string name="help">LITTLE-GIRL:暗夜精灵 
+        	暗夜精灵采用MD5、AES双重加密，更安全、更可靠。
+        	该软件只支持单用户操作，安装该软件后，请先注册好账号，请务必认真填写好邮箱地址，若忘记密码，可以通过
+        	该邮箱找回密码。
+        	LETTLE-GIRL支持50个字符以内的标题及200个字符以内的文本内容加密。
+        	大量文本加密请使用LITTLE-GIRL的文件加密功能，该功能支持word、excel、pdf、jpg、png、gif、txt文件加密.
+        	解密后的文档默认放置在SD卡下little-girl文件夹中little-girl下的wenjianjiami文件夹为系统文件夹，请勿删除。
+        	加密后的文件，使用完后系统不会自动删除，如你不再需要，请手动删除little-girl下的加密后的文件。谢谢你支持并使用LITTLE-GIRL软件。
+        	</string> 
+     
+</resources>

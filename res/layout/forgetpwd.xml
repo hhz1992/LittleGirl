@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	android:gravity="center"
+    android:orientation="vertical"
+     >
+     <LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="40dp"
+		android:background="#88A1A9"
+        >
+     <TextView
+        android:textColor="#EEEEEE" 
+		android:textSize="16dp"
+		android:shadowDx="5"
+		android:paddingTop="6dp"
+		android:shadowDy="5"
+		android:shadowRadius="3"
+		android:shadowColor="#4F7007"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="暗夜精灵:LITTLE-GIRL" />
+     </LinearLayout>
+     <LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="0dip"
+		android:gravity="center"
+		android:layout_weight="1"
+        >
+     <ImageView android:id="@+id/titlelogo"
+			android:layout_width="200dp"
+			android:src="@drawable/daohang1"
+			android:layout_height="100dp"
+	/>
+    </LinearLayout>
+     <!-- 图片结束 -->
+    <!-- 用户名 -->
+        <TextView
+        android:textColor="#4F7007" 
+		android:textSize="16dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/username" />
+         <EditText
+        android:layout_width="200dp"
+        android:id="@+id/username"
+        android:layout_height="wrap_content"
+        android:hint="@string/tishiusername"/>
+         
+     
+          <!-- 确认新密码 -->   
+        <TextView
+        android:textColor="#4F7007" 
+		android:textSize="16dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="输入邮箱:" />
+         <EditText
+        android:layout_width="200dp"
+        android:id="@+id/email"
+        android:layout_height="wrap_content"
+        android:hint="@string/tishiemail"/>
+   
+   
+  <LinearLayout android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:paddingBottom="50dp"
+		android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+   <Button 
+    android:textColor="#4F7007" 
+	android:textSize="20dp"
+    android:layout_width="100dp"
+	android:id="@+id/forgetbutton"
+	android:layout_height="wrap_content" 
+	android:text="@string/submit"
+	/>
+   
+ </LinearLayout>
+</LinearLayout>

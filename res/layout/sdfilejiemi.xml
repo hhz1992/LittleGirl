@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	>
+
+
+
+<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:gravity="center"
+		android:layout_height="46dp"
+		android:background="#88A1A9"
+        >
+	<TextView 
+	android:textColor="#EEEEEE" 
+	android:shadowDx="6"
+	android:layout_marginTop="5dp"
+	android:shadowDy="6"
+	android:shadowRadius="3"
+	android:shadowColor="#4F7007"
+	android:textSize="22dp"
+	android:layout_marginRight="80dp"
+	android:layout_width="wrap_content" 
+	android:layout_height="30dp" 
+	android:text="@string/jiemifile"/>
+	<TextView 
+	android:textColor="#4F7007" 
+	android:shadowDx="6"
+	android:layout_marginTop="5dp"
+	android:shadowDy="6"
+	android:shadowRadius="3"
+	android:shadowColor="#EEEEEE"
+	android:textSize="22dp"
+	android:id="@+id/twjiami"	    
+	android:layout_width="wrap_content" 
+	android:layout_height="30dp"  
+	android:text="@string/jiamifile"/>
+</LinearLayout>   
+
+<!-- 列出当前路径下所有文件的ListView -->
+<ListView  
+	android:id="@+id/list"
+	android:divider="#EEEEEE"
+	android:background="#FFFFFF"
+	android:dividerHeight="1dp" 
+	android:layout_width="fill_parent" 
+	android:layout_height="0dip"
+	android:layout_weight="1" 
+	/>
+<!-- 返回上一级目录的按钮 -->
+
+
+  <LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="46dp"
+		android:gravity="center"
+		android:background="#88A1A9"
+        >
+	<Button android:id="@+id/index"
+	android:textColor="#4F7007" 
+	android:textSize="12dp"
+	android:layout_width="100dp" 
+	android:layout_height="wrap_content" 
+	android:text="@string/index"/>
+	<Button android:id="@+id/deletewenjian"
+	android:textColor="#4F7007" 
+	android:textSize="12dp"
+	android:layout_width="100dp" 
+	android:layout_height="wrap_content" 
+	android:text="删除文件"/>
+	<Button android:id="@+id/jiemi"
+	android:textColor="#4F7007" 
+	android:textSize="12dp"
+	android:layout_width="100dp" 
+	android:layout_height="wrap_content" 
+	android:text="@string/jiemifile"/>
+</LinearLayout>	
+</LinearLayout>

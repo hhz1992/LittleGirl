@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	android:gravity="center"
+    android:orientation="vertical"
+     >
+     <LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="40dp"
+		android:background="#88A1A9"
+        >
+     <TextView
+        android:textColor="#EEEEEE" 
+		android:textSize="22dp"
+		android:shadowDx="5"
+		android:paddingTop="6dp"
+		android:shadowDy="5"
+		android:shadowRadius="3"
+		android:shadowColor="#4F7007"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="little-girl:暗夜精灵" />
+     </LinearLayout>
+     <LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="0dip"
+		android:gravity="center"
+		android:layout_marginLeft="40dp"
+		android:layout_weight="1"
+        >
+     <Button android:id="@+id/daohang2"
+         	android:textColor="#EEEEEE" 
+			android:textSize="25dp"
+			android:shadowDx="5"
+			android:shadowDy="5"
+			android:shadowRadius="3"
+			android:shadowColor="#4F7007"
+			android:layout_width="160dp"
+			android:layout_height="80dp"
+			android:text="加密解密"
+		/>
+     <Button android:id="@+id/daohang1"
+         	android:layout_marginTop="30dp"
+         	android:textColor="#EEEEEE" 
+			android:textSize="25dp"
+			android:shadowDx="5"
+			android:shadowDy="5"
+			android:shadowRadius="3"
+			android:shadowColor="#4F7007"
+			android:layout_width="160dp"
+			android:layout_height="80dp"
+			android:text="光感防盗"
+		/>
+    
+     </LinearLayout>
+</LinearLayout>

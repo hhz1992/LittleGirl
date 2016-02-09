@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tjpu"
+    android:versionCode="1"
+    android:versionName="1.0" >
+	<uses-sdk android:minSdkVersion="10" />
+    <!-- 在sd卡中穿件与删除文件权限 -->
+	<uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+	<!-- 在sd卡中写入数据权限 -->
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	<uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name">/
+        <!--  <activity
+            android:name="com.tjpu.littlegirlActivity"
+            android:label="@string/app_name" 
+            android:theme="@style/mytheme1">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        -->
+        <activity
+            android:name="com.tjpu.WelcomeActivity"
+            android:label="little-girl" 
+            android:theme="@style/welcometheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.tjpu.LoginActivity" 
+            android:label="@string/login"
+            android:theme="@style/logintheme">
+        </activity>
+        <activity android:name=".JiemiWenbenActivity" 
+            android:label="@string/showcontentname"
+            android:theme="@style/flowerbgtheme">
+        </activity>
+		<activity
+            android:name=".JiamiWenbenActivity"
+            android:label="@string/app_name" 
+            android:theme="@style/flowerbgtheme">
+        </activity>
+        <activity
+            android:name=".ModifyPwdActivity"
+            android:label="@string/app_name" 
+            android:theme="@style/bridgebgtheme">
+        </activity>
+        <activity
+            android:name="com.tjpu.RegisterActivity"
+            android:label="@string/app_name" 
+            android:theme="@style/logintheme">
+        </activity>
+        <activity
+            android:name="com.tjpu.FileDESActivity"
+            android:label="@string/app_name" 
+            android:theme="@style/logintheme">
+        </activity>
+        <activity
+            android:name="com.tjpu.SDFileExplorer"
+            android:label="@string/app_name" 
+            android:theme="@style/flowerbgtheme">
+        </activity>
+        <activity
+            android:name="com.tjpu.SDFileJiemi"
+            android:label="@string/app_name" 
+            android:theme="@style/flowerbgtheme">
+        </activity>
+        <activity
+            android:name="com.tjpu.MenuActivity"
+            android:label="@string/app_name" 
+            android:theme="@style/bridgebgtheme">
+        </activity>
+        <activity
+            android:name="com.tjpu.ForgetPwdActivity"
+            android:label="@string/app_name" 
+            android:theme="@style/bridgebgtheme">
+        </activity>
+        <activity
+            android:name="com.tjpu.DaohangActivity"
+            android:label="@string/app_name" 
+            android:theme="@style/daohangtheme">
+        </activity>
+         <activity
+            android:name="com.tjpu.HelpActivity"
+            android:label="@string/app_name" 
+            android:theme="@style/flowerbgtheme">
+        </activity>
+         
+        
+    </application>
+
+</manifest>
